@@ -11,6 +11,7 @@ Sentry.init({
 function App() {
   return (
     <NativeBaseProvider>
+      <StatusBar style="light" />
       <Box>Hello world</Box>
     </NativeBaseProvider>
   );
